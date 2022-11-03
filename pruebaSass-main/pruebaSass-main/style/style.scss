@@ -1,0 +1,83 @@
+@import"generales";
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Koulen&family=Poppins:ital,wght@1,200&family=Square+Peg&display=swap');
+
+/*font-family: 'Gruppo', cursive;
+font-family: 'Koulen', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Square Peg', cursive;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    grid-area: footer;
+    width: 100%;
+    color: rgb(68, 65, 65);
+    background-color: bisque;
+    list-style: none;
+}
+
+@media screen and (max-width: 1375px) {}
+
+@media screen and (max-width: 950px) {
+    .body .header .main .flex .tturs .turs {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "cong1 rese2"
+            "cente3 rose4"
+            "mercado laboca";
+
+    }
+}
+
+@media screen and (max-width: 730px) {}
+
+@media screen and (max-width: 500px) {
+    .body .header .main .flex .tturs .turs {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "cong1 rese2 cente3"
+            "rose4 mercado laboca";
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+    .body .header .main .flex .tturs .turs {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "cong1 rese2 cente3"
+            "rose4 mercado laboca";
+
+    }
+}

@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.body {
+    background-color: black;
+
+}
+.headerSize{
+    height: 25rem;
+    max-height: 25rem;
+    background: url(../img/panora\,ica.jpg )no-repeat;
+    background-size: cover;
+    .titulo {
+        font-family: 'Gruppo', cursive;
+        color: rgb(68, 65, 65);
+        margin-bottom: 10px;
+    }
+    .items{
+        background-color: rgba(168, 17, 210, 0.318);
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: larger;
+        font-weight: bolder ;    
+        color: white;
+    }
+}
+
+iframe {
+    width: 100%;
+}
+
+
+
+
+.main {
+
+    background-color: black;
+}
+.carousel-item{
+
+    img{
+        border-radius: 30px;
+      
+    }
+    .colorLetra{
+        color: rgb(241, 217, 217);
+        font-family: 'Koulen', cursive; 
+        font-size: large;
+    }
+   
+}
+.formu {
+    color: rgb(68, 65, 65);
+    font-family: 'Koulen', cursive;
+}
+
+.fotos{
+    border: solid 8px rgb(250, 250, 250);
+    
+}
+.galeriimg {
+   @extend .fotos;
+   border-radius: 30px;
+  
+   
+}
+
+  
+.cabeza {
+    font-family: 'Gruppo', cursive;
+    color: bisque;
+    font-size: larger;
+    font-weight: bolder;
+}
+.turs {
+    color: bisque;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+
+}
+.marginFooter {
+    margin-top: 5rem;
+}
+.iconos{
+    display: flex;
+    padding-top: 20px;
+    font-size: 30px;
+    display: inline;
+    
+    
+}
